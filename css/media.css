@@ -1,0 +1,55 @@
+
+
+/* @media type condition breakpoint */
+
+/* type ==> screen , speech , print */
+
+/* consdition ==> max-width , min-width , range */
+
+/* breakpoint ==> screen size  */
+
+
+
+@media (max-width:576px){
+    .about-img{
+        height: 15rem;
+    }
+}
+
+@media (max-width:768px) and (min-width:576px){
+    .cards-about{
+        display: none;
+    }
+    .card-about div:last-child{
+        padding-left: 2rem !important;
+    }
+    .about-img{
+        background-size:100% 100% ;
+
+    }
+}
+@media (max-width:992px) and (min-width:768px){
+    /* .about-img{
+        
+    }
+    .cards-about{
+
+    } */
+    .about-contect{
+        height: 15rem;
+    }
+}
+@media (max-width:1200px) and (min-width:992px){
+    .cards-about{
+        margin-top: 3rem !important;
+    }
+    .card-about{
+        padding-left: 2rem !important;
+    }
+    .about-contect{
+        height: 15rem;
+    }
+}
+@media (max-width:1400px) and (min-width:1200px){
+    
+}
