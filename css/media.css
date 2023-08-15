@@ -11,21 +11,48 @@
 
 
 @media (max-width:576px){
-    .about-img{
-        height: 15rem;
-    }
-}
-
-@media (max-width:768px) and (min-width:576px){
     .cards-about{
-        display: none;
+        position: relative;
+        top: auto;
+        margin: 0 auto 30px;
+        width: 100%;
     }
     .card-about div:last-child{
         padding-left: 2rem !important;
     }
     .about-img{
         background-size:100% 100% ;
+    }
+    .card-services h5{
+        font-size: 15px !important;
+    }
+    .card-services p{
+        font-size: 15px !important;
+    }
+    .about-img{
+        height: 15rem;
+    }
+    
+}
 
+@media (max-width:768px) and (min-width:576px){
+    .cards-about{
+        position: relative;
+        top: auto;
+        margin: 0 auto 30px;
+        width: 100%;
+    }
+    .card-about div:last-child{
+        padding-left: 2rem !important;
+    }
+    .about-img{
+        background-size:100% 100% ;
+    }
+    .card-team-contect{
+        transform: translateY(7rem);
+    }
+    .owl-carousel .card{
+        width: 100% !important;
     }
 }
 @media (max-width:992px) and (min-width:768px){

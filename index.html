@@ -17,7 +17,7 @@
         <link rel="stylesheet" href="css/media.css">
     </head>
     <body>
-        <a id="c-scroll" class=" d-none" style="display: inline;">
+        <a id="c-scroll" class=" d-none d-inline">
             <i class="fa fa-chevron-up"></i>
         </a>
         <header class="head-top bg-primary pt-3 d-lg-block d-none">
@@ -56,100 +56,84 @@
                 </div>
             </div>
         </header>
-        <nav class="bg-white">
-            <div class="container ">
-                <div class=" justify-content-between align-items-center">
-                    <div class="navbar d-block navbar-expand-lg navbar-light col">
-                        <div class="row justify-content-between align-items-center ">
-                            <div class="col-md-2 ">
-                                <a class="navbar-brand" href="#">
-                                    <img src="images/Trade-X-Logo.png"  alt="">
-                                </a>
-                            </div>
-                            
-                            <div class="col-md-10 mt-3 d-lg-block d-none gx-0">
-                                <ul class=" d-flex align-items-center justify-content-between">
-                                    <li class="dropdown list-inline ">
-                                        <button class="btn border-0 dropdown-toggle  " type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                            HOME
-                                        </button>
-                                        <ul class="dropdown-menu">
-                                            <li><a class="dropdown-item" href="#">Action</a></li>
-                                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                                            <li><a class="dropdown-item" href="#">Something else here</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="list-inline">
-                                        <a href="#" class="btn link-underline-light text-black"> About</a>
-                                    </li>
-                                    <li class="dropdown list-inline ">
-                                        <button class="btn border-0 dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                            HEADERS
-                                        </button>
-                                        <ul class="dropdown-menu">
-                                            <li><a class="dropdown-item" href="#">Action</a></li>
-                                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                                            <li><a class="dropdown-item" href="#">Something else here</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="dropdown list-inline ">
-                                        <button class="btn border-0 dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                            BLOG POST
-                                        </button>
-                                        <ul class="dropdown-menu">
-                                            <li><a class="dropdown-item" href="#">Action</a></li>
-                                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                                            <li><a class="dropdown-item" href="#">Something else here</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="dropdown list-inline ">
-                                        <button class="btn border-0 dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                            SERVICES
-                                        </button>
-                                        <ul class="dropdown-menu">
-                                            <li><a class="dropdown-item" href="#">Action</a></li>
-                                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                                            <li><a class="dropdown-item" href="#">Something else here</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="dropdown list-inline ">
-                                        <button class="btn border-0 dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                            FEATURES
-                                        </button>
-                                        <ul class="dropdown-menu">
-                                            <li><a class="dropdown-item" href="#">Action</a></li>
-                                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                                            <li><a class="dropdown-item" href="#">Something else here</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="dropdown list-inline ">
-                                        <button class="btn border-0 dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                            PAGES
-                                        </button>
-                                        <ul class="dropdown-menu">
-                                            <li><a class="dropdown-item" href="#">Action</a></li>
-                                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                                            <li><a class="dropdown-item" href="#">Something else here</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="list-inline  ">
-                                        <a href="#" class="link-underline-light text-black"> CONTACT</a>
-                                    </li>
-                                </ul>
-                            </div>
-                            <div class="col-md-1">
-                                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                                    <span class="navbar-toggler-icon"></span>
-                                </button>
-                            </div>
-                            
-                        </div>
-                        
-                    
-                    </div>
-                    
-                </div>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+          <div class="container-md">
+            <a class="navbar-brand" href="#">
+              <img src="images/Trade-X-Logo.png"  alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav ms-auto">
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    HOME
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item border-bottom" href="#">HOME01</a></li>
+                    <li><a class="dropdown-item" href="#">HOME02</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">ABOUT</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    HEADERS
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    BLOG POST
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    SERVICES
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    FEATURES
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    PAGES
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">CONTACT</a>
+                </li>
+              </ul>
             </div>
+          </div>
         </nav>
         <section>
             <div id="carouselExampleCaptions" class="carousel slide">
@@ -224,7 +208,7 @@
                 </div>
                 <div class="row align-items-center">
                     <div class="col-xl-8 col-lg-12 col-md-12 col-sm-12">
-                        <div class="about-img position-relative">
+                        <div class="position-relative">
                             <div class="cards-about mt-xl-4 mt-lg-2 mt-md-5 mt-sm-5">
                                 <div class="shadow">
                                     <div class="flex-column">
@@ -268,13 +252,14 @@
                                     </div>
                                 </div>                                
                             </div>
+                            <div class="about-img"></div>
                         </div>
                     </div>
                     <div class="col-xl-4 col-lg-12 col-md-12">
-                        <div class="about-contect  mb-2 pt-3">
+                        <div class="mb-2 pt-3">
                             <p>Dorem ipsum dolor sit amet, consectetur adipiscing elit. Ut blandit nisi a dictum tristique. Nullam urna metus, vestibulum ac sodales eSed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam remrutrumDorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut perspiciatis.</p>
                             <p class="pt-2 pb-2">Dorem ipsum dolor sit amet. consectetur adipiscing elit. Ut blandit nisi a dictum tristique. Nullam urna metus, vestibulum ac sodales eSed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam remrutrumDorem ipsum dolor sit amet, consectetur.</p>
-                            <a href="" class="bg-primary ">Learn More</a>
+                            <a href="#" class="bg-primary btn-about ">Learn More</a>
                         </div>
                     </div>
 
@@ -289,8 +274,8 @@
                             <i class="fa-solid fa-tv fs-2"></i>
                         </div>
                         <div class="mt-3">
-                            <h4>8000</h1>
-                            <p>Total project</h6>
+                            <h4 id ="total_project">0</h4>
+                            <p>Total project</p>
                         </div>
                     </div>
                     <div class="col d-flex align-items-center">
@@ -298,8 +283,8 @@
                             <i class="fa-solid fa-trophy fs-2"></i>
                         </div>
                         <div class="mt-3">
-                            <h4>810</h1>
-                            <p>Won Awards</h6>
+                            <h4 id ="Won">0</h4>
+                            <p>Won Awards</p>
                         </div>
                     </div>
                     <div class="col d-flex align-items-center">
@@ -307,8 +292,8 @@
                             <i class="fa-regular fa-face-smile fs-2"></i>
                         </div>
                         <div class="mt-3">
-                            <h4>2000</h1>
-                            <p>Happy Clients</h6>
+                            <h4 id ="Happy">0</h4>
+                            <p>Happy Clients</p>
                         </div>
                     </div>
                     <div class="col d-flex align-items-center">
@@ -316,8 +301,8 @@
                             <i class="fa-solid fa-calendar-days fs-2"></i>
                         </div>
                         <div class="pt-3">
-                            <h4>20</h1>
-                            <p>Years Experience</h6>
+                            <h4 id ="exp">0</h4>
+                            <p>Years Experience</p>
                         </div>
                     </div>
                     
@@ -348,7 +333,7 @@
                     </div>
                     <div class="cards-services pb-5">
                         <div class="row justify-content-between align-items-center g-4 ">
-                            <div class="col-lg-4 col-md-6 col-sm-6 ">
+                            <div class="col-lg-4 col-md-6 col-sm-12 ">
                                 <div class="position-relative overflow-hidden">
                                     <div class="text-center border border-white rounded pt-5 pb-5">
                                         <i class="fa-solid fa-cloud-arrow-up fs-1 mb-3"></i>
@@ -361,7 +346,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-4 col-md-6 col-sm-6 ">
+                            <div class="col-lg-4 col-md-6 col-sm-12 ">
                                 <div class="position-relative overflow-hidden">
                                     <div class="text-center border border-white rounded pt-5 pb-5">
                                         <i class="fa-solid fa-desktop fs-1 mb-3"></i>
@@ -374,7 +359,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-4 col-md-6 col-sm-6 ">
+                            <div class="col-lg-4 col-md-6 col-sm-12 ">
                                 <div class="position-relative overflow-hidden">
                                     <div class="text-center border border-white rounded pt-5 pb-5">
                                         <i class="fa-solid fa-pen fs-1 mb-3"></i>
@@ -387,7 +372,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-4 col-md-6 col-sm-6 ">
+                            <div class="col-lg-4 col-md-6 col-sm-12 ">
                                 <div class="position-relative overflow-hidden">
                                     <div class="text-center border border-white rounded pt-5 pb-5">
                                         <i class="fa-solid fa-tv fs-1 mb-3"></i>
@@ -400,7 +385,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-4 col-md-6 col-sm-6 ">
+                            <div class="col-lg-4 col-md-6 col-sm-12 ">
                                 <div class="position-relative overflow-hidden">
                                     <div class="text-center border border-white rounded pt-5 pb-5">
                                         <i class="fa-solid fa-network-wired fs-1 mb-3"></i>
@@ -413,7 +398,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-4 col-md-6 col-sm-6 ">
+                            <div class="col-lg-4 col-md-6 col-sm-12 ">
                                 <div class="position-relative overflow-hidden">
                                     <div class="text-center border border-white rounded pt-5 pb-5">
                                         <i class="fa-brands fa-wordpress fs-1 mb-3"></i>
@@ -760,7 +745,7 @@
                       <div class="tab-content" id="pills-tabContent">
                         <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
                             <div class="row ">  
-                                <div class="col-lg-4 col-md-6 col-sm-12 border border-1">
+                                <div class="col-lg-4 col-md-6 col-sm-12 border border-1 gy-3">
                                     <div class="flex-column justify-content-between card-pricing text-center ps-3 pe-3 pt-2 pb-2">
                                         <div>
                                             <h1 class="">Pe<span class="border-0 border-bottom pb-3 border-primary">rson</span>al</h1>
@@ -791,7 +776,7 @@
                                         <button type="button" class="btn btn-primary rounded-pill btn-hover btn-lg fs-6 fw-medium">GET STARTED NOW</button>
                                     </div>
                                 </div>
-                                <div class="col-lg-4 col-md-6 col-sm-12 shadow-lg">
+                                <div class="col-lg-4 col-md-6 col-sm-12 shadow-lg gy-3">
                                     <div class="flex-column justify-content-between card-pricing text-center ps-3 pe-3 pt-2 pb-4">
                                         <div>
                                             <h1>Bu<span class="border-0 border-bottom pb-3 border-primary">sine</span>ss</h1>
@@ -822,7 +807,7 @@
                                         <button type="button" class="btn btn-primary bg-transparent text-primary rounded-pill btn-hover btn-lg fs-6 fw-medium">GET STARTED NOW</button>
                                     </div>
                                 </div>
-                                <div class="col-lg-4 col-md-6 col-sm-12 border border-1">
+                                <div class="col-lg-4 col-md-6 col-sm-12 border border-1 ms-auto me-auto gy-3">
                                     <div class="flex-column justify-content-between card-pricing text-center ps-3 pe-3 pt-2 pb-2">
                                         <div>
                                             <h1>Ul<span class="border-0 border-bottom pb-3 border-primary">tima</span>te</h1>
@@ -919,7 +904,7 @@
                                         <button type="button" class="btn btn-primary rounded-pill btn-hover btn-lg fs-6 fw-medium">GET STARTED NOW</button>
                                     </div>
                                 </div>
-                                <div class="col-lg-4 col-md-6 col-sm-12 shadow-lg">
+                                <div class="col-lg-4 col-md-6 col-sm-12 shadow-lg ms-auto me-auto">
                                     <div class="flex-column justify-content-between card-pricing text-center ps-3 pe-3 pt-2 pb-2">
                                         <div>
                                             <h1>Pe<span class="border-0 border-bottom pb-3 border-primary">rson</span>al</h1>
@@ -958,7 +943,7 @@
             </div>
         </section>
         <section>
-            <div class="container">
+            <div class="container-md">
                 <div class="custom-title">
                     <div class="text-center">
                         <div class="d-inline-block pb-3 pe-3 rtl">
@@ -975,10 +960,10 @@
                     </div> 
                 </div>
                 <div class="owl-carousel">
-                    <div>
-                        <div class="card mb-3 pt-1 pb-1 ps-4 pe-4" style="max-width: 540px; ">
-                            <div class="row g-0 align-items-center">
-                              <div class="col-md-4">
+                    <div class="card">
+                        <div class=" mb-3 pt-1 pb-1 ps-4 pe-4" style="max-width: 540px; ">
+                            <div class="row g-0 align-items-center ">
+                              <div class="col-md-4 ">
                                 <img src="images/testi-avtar-5.jpg" class="img-fluid rounded-start" alt="...">
                               </div>
                               <div class="col-md-8">
@@ -991,8 +976,8 @@
                             </div>
                         </div>
                     </div>
-                    <div>
-                        <div class="card mb-3 pt-1 pb-1 ps-4 pe-4" style="max-width: 540px; ">
+                    <div class="card">
+                        <div class=" mb-3 pt-1 pb-1 ps-4 pe-4" style="max-width: 540px; ">
                             <div class="row g-0 align-items-center">
                               <div class="col-md-4">
                                 <img src="images/testi-avtar-4.jpg" class="img-fluid rounded-start" alt="...">
@@ -1007,8 +992,8 @@
                             </div>
                         </div>
                     </div>
-                    <div>
-                        <div class="card mb-3 pt-1 pb-1 ps-4 pe-4" style="max-width: 540px; ">
+                    <div class="card">
+                        <div class=" mb-3 pt-1 pb-1 ps-4 pe-4" style="max-width: 540px; ">
                             <div class="row g-0 align-items-center">
                               <div class="col-md-4">
                                 <img src="images/testi-avtar-3.jpg" class="img-fluid rounded-start" alt="...">
@@ -1023,8 +1008,8 @@
                             </div>
                         </div>
                     </div>
-                    <div>
-                        <div class="card mb-3 pt-1 pb-1 ps-4 pe-4" style="max-width: 540px; ">
+                    <div class="card">
+                        <div class=" mb-3 pt-1 pb-1 ps-4 pe-4" style="max-width: 540px; ">
                             <div class="row g-0 align-items-center">
                               <div class="col-md-4">
                                 <img src="images/testi-avtar-2.jpg" class="img-fluid rounded-start" alt="...">
@@ -1039,8 +1024,8 @@
                             </div>
                         </div>
                     </div>
-                    <div>
-                        <div class="card mb-3 pt-1 pb-1 ps-4 pe-4" style="max-width: 540px; ">
+                    <div class="card">
+                        <div class=" mb-3 pt-1 pb-1 ps-4 pe-4" style="max-width: 540px; ">
                             <div class="row g-0 align-items-center">
                               <div class="col-md-4">
                                 <img src="images/testi-avtar-1.jpg" class="img-fluid rounded-start" alt="...">
@@ -1058,6 +1043,463 @@
                   </div>
             </div>
         </section>
+        <section class="bg-light mt-3" >
+          <div class="container-md">
+            <div class="custom-title">
+              <div class="text-center">
+                  <div class="d-inline-block pb-3 pe-3 rtl">
+                      <span class="md-line"></span>
+                      <span class="lg-line"></span>
+                  </div>
+                  <h1 class="text-center d-inline-block">
+                    Latest Blog
+                      <div class="d-inline-block pb-3 ps-2">
+                          <span class="md-line"></span>
+                          <span class="lg-line"></span>
+                      </div>
+                  </h1>
+                  <h6 class="pt-4 pb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor. incididunt ut labore et dolore. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusm dipisicing elit, sed do eiusmod tempor.</h6>
+              </div> 
+            </div>
+            <div class="mb-5">
+              <div class="">
+                <div class="row justify-content-center">
+                  <div class="col-xl-4 col-md-6 col-sm-12 gy-3">
+                    <div class="card-blog overflow-hidden">
+                      <div class="img-card-blog overflow-hidden">
+                        <img src="https://digitaltemplatemarket.com/wp/tradex-premium/wp-content/uploads/sites/6/2018/11/gallery2-1-360x260.png" alt="" >
+                      </div>
+                      <div class="d-flex align-items-center justify-content-between overflow-hidden">
+                        <div class="links-card-blog">
+                          <div class="p-2">
+                            <ul class="flex-wrap list-unstyled text-center">
+                              <li>
+                                <a href="#"><i class="fa-brands fa-facebook-f text-white fs-5 mt-5 pb-3"></i></a>
+                              </li>
+                              <li>
+                                <a href="#"><i class="fa-brands fa-twitter text-white fs-5 pt-3 pb-3"></i></a>
+                              </li>
+                              <li>
+                                <a href="#"><i class="fa-brands fa-linkedin-in text-white fs-5 pt-3 pb-3"></i></a>
+                              </li>
+                              <li>
+                                <a href="#"><i class="fa-brands fa-google-plus-g text-white fs-5 pt-3 pb-3"></i></a>
+                              </li>
+                              <li>
+                                <a href="#"><i class="fa-brands fa-tumblr text-white fs-5 mb-3 pt-3 "></i></a>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                        <div class="ps-3 pe-3">
+                          <div class="flex-wrap ">
+                            <div class="title-card-blog pt-2 pb-2">
+                              <h5>Four Ways To Cheer And Plan Your Self Up On Blue</h5>
+                            </div>
+                            <div class="data-card-blog pt-2 pb-2  border-bottom position-relative"> 
+                              <div class="d-flex justify-content-between">
+                                <div class="">
+                                  <div class="data-card-blog-hover">
+                                    <a href="#" class="">
+                                      <i class="fa-regular fa-user"></i> <span class="ps-2">By Dtm-demo</span>
+                                    </a>
+                                  </div>
+                                </div>
+                                <span class=" ">|</span>
+                                <div class="">
+                                  <div class="data-card-blog-hover">
+                                    <a href="#" class="">
+                                      <i class="fa-regular fa-calendar-days"></i><span class="ps-2">19 Dec 2018</span>
+                                    </a>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="contect-card-blog pt-4 pb-2">
+                              <p>Lorem ipsum dolor sit amet, rcquisc adipiscing elit. Aenean socada commodo ligauala egets dssdolor....</p>
+                            </div>
+                            <div class="btn-readMore-blog pt-2 pb-2">
+                              <a href="#" class="bg-transparent">Read More </a>
+                              <span class="arrow position-relative"><i class="fa-solid fa-arrow-right"></i></span>
+                            </div>
+                          </div>
+                        </div>
+
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-xl-4 col-md-6 col-sm-12 gy-3">
+                  <div class="card-blog overflow-hidden">
+                      <div class="img-card-blog overflow-hidden">
+                        <img src="https://digitaltemplatemarket.com/wp/tradex-premium/wp-content/uploads/sites/6/2018/11/bg1-360x260.jpg" alt="" >
+                      </div>
+                      <div class="d-flex align-items-center justify-content-between overflow-hidden">
+                        <div class="links-card-blog">
+                          <div class="p-2">
+                            <ul class="flex-wrap list-unstyled text-center">
+                              <li>
+                                <a href="#"><i class="fa-brands fa-facebook-f text-white fs-5 mt-5 pb-3"></i></a>
+                              </li>
+                              <li>
+                                <a href="#"><i class="fa-brands fa-twitter text-white fs-5 pt-3 pb-3"></i></a>
+                              </li>
+                              <li>
+                                <a href="#"><i class="fa-brands fa-linkedin-in text-white fs-5 pt-3 pb-3"></i></a>
+                              </li>
+                              <li>
+                                <a href="#"><i class="fa-brands fa-google-plus-g text-white fs-5 pt-3 pb-3"></i></a>
+                              </li>
+                              <li>
+                                <a href="#"><i class="fa-brands fa-tumblr text-white fs-5 mb-3 pt-3 "></i></a>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                        <div class="ps-3 pe-3">
+                          <div class="flex-wrap ">
+                            <div class="title-card-blog pt-2 pb-2">
+                              <h5>Four Ways To Cheer And Plan Your Self Up On Blue</h5>
+                            </div>
+                            <div class="data-card-blog pt-2 pb-2  border-bottom position-relative"> 
+                              <div class="d-flex justify-content-between">
+                                <div class="">
+                                  <div class="data-card-blog-hover">
+                                    <a href="#" class="">
+                                      <i class="fa-regular fa-user"></i> <span class="ps-2">By Dtm-demo</span>
+                                    </a>
+                                  </div>
+                                </div>
+                                <span class=" ">|</span>
+                                <div class="">
+                                  <div class="data-card-blog-hover">
+                                    <a href="#" class="">
+                                      <i class="fa-regular fa-calendar-days"></i><span class="ps-2">19 Dec 2018</span>
+                                    </a>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="contect-card-blog pt-4 pb-2">
+                              <p>Lorem ipsum dolor sit amet, rcquisc adipiscing elit. Aenean socada commodo ligauala egets dssdolor....</p>
+                            </div>
+                            <div class="btn-readMore-blog pt-2 pb-2">
+                              <a href="#" class="bg-transparent">Read More </a>
+                              <span class="arrow position-relative"><i class="fa-solid fa-arrow-right"></i></span>
+                            </div>
+                          </div>
+                        </div>
+
+                      </div>
+                  </div>
+                  </div>
+                  <div class="col-xl-4 col-md-6 col-sm-12 gy-3">
+                    <div class="card-blog overflow-hidden">
+                      <div class="img-card-blog overflow-hidden">
+                        <img src="https://digitaltemplatemarket.com/wp/tradex-premium/wp-content/uploads/sites/6/2018/11/bg3-360x260.jpg" alt="" >
+                      </div>
+                      <div class="d-flex align-items-center justify-content-between overflow-hidden">
+                        <div class="links-card-blog">
+                          <div class="p-2">
+                            <ul class="flex-wrap list-unstyled text-center">
+                              <li>
+                                <a href="#"><i class="fa-brands fa-facebook-f text-white fs-5 mt-5 pb-3"></i></a>
+                              </li>
+                              <li>
+                                <a href="#"><i class="fa-brands fa-twitter text-white fs-5 pt-3 pb-3"></i></a>
+                              </li>
+                              <li>
+                                <a href="#"><i class="fa-brands fa-linkedin-in text-white fs-5 pt-3 pb-3"></i></a>
+                              </li>
+                              <li>
+                                <a href="#"><i class="fa-brands fa-google-plus-g text-white fs-5 pt-3 pb-3"></i></a>
+                              </li>
+                              <li>
+                                <a href="#"><i class="fa-brands fa-tumblr text-white fs-5 mb-3 pt-3 "></i></a>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                        <div class="ps-3 pe-3">
+                          <div class="flex-wrap ">
+                            <div class="title-card-blog pt-2 pb-2">
+                              <h5>Four Ways To Cheer And Plan Your Self Up On Blue</h5>
+                            </div>
+                            <div class="data-card-blog pt-2 pb-2  border-bottom position-relative"> 
+                              <div class="d-flex justify-content-between">
+                                <div class="">
+                                  <div class="data-card-blog-hover">
+                                    <a href="#" class="">
+                                      <i class="fa-regular fa-user"></i> <span class="ps-2">By Dtm-demo</span>
+                                    </a>
+                                  </div>
+                                </div>
+                                <span class=" ">|</span>
+                                <div class="">
+                                  <div class="data-card-blog-hover">
+                                    <a href="#" class="">
+                                      <i class="fa-regular fa-calendar-days"></i><span class="ps-2">19 Dec 2018</span>
+                                    </a>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="contect-card-blog pt-4 pb-2">
+                              <p>Lorem ipsum dolor sit amet, rcquisc adipiscing elit. Aenean socada commodo ligauala egets dssdolor....</p>
+                            </div>
+                            <div class="btn-readMore-blog pt-2 pb-2">
+                              <a href="#" class="bg-transparent">Read More </a>
+                              <span class="arrow position-relative"><i class="fa-solid fa-arrow-right"></i></span>
+                            </div>
+                          </div>
+                        </div>
+
+                      </div>
+                    </div>
+                  </div>
+    
+                </div>
+  
+              </div>
+            </div>
+          </div>
+        </section>
+
+
+
+
+        <footer class="bg-dark">
+            <div class="container text-white position-relative">
+              <div class="row justify-content-center align-items-center gx-3">
+                <div class="col-lg-4 col-md-6">
+                  <div
+                    class="d-flex flex-column justify-content-around my-2 gap-5 align-items-lg-start align-items-center"
+                  >
+                    <div class="">
+                      <h2 class="footer-head position-relative pb-4 mb-4">
+                        Contact Info
+                      </h2>
+                    </div>
+                    <div
+                      class="d-flex flex-column justify-content-center align-items-start gap-3 my-3"
+                    >
+                      <div
+                        class="d-flex justify-content-center align-items-center gap-2"
+                      >
+                        <i class="fa-solid fa-location-dot"></i>
+                        <p class="mb-0">123 Street Market, Life Plaza, New York</p>
+                      </div>
+                      <div
+                      class="d-flex justify-content-center align-items-center gap-3"
+                      >
+                        <i class="fa-solid fa-phone-volume"></i>
+                        <p class="mb-0">987654321</p>
+                      </div>
+                      <div
+                        class="d-flex justify-content-center align-items-center gap-3"
+                      >
+                        <i class="fa-solid fa-envelope"></i>
+                        <p class="mb-0">team@gmail.com</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6 my-3 gx-4">
+                  <div
+                    class="d-flex flex-column justify-content-center align-items-lg-start gap-3 align-items-center"
+                  >
+                    <div class="">
+                      <h2 class="footer-head position-relative pb-4 mb-4">Posts</h2>
+                    </div>
+                    <div
+                      class="d-flex flex-column justify-content-end align-items-center mb-3"
+                    >
+                      <div
+                        class="border-bottom border-1 border-color d-flex justify-content-center align-items-center pb-2 gap-3"
+                      >
+                        <div
+                          class="footer-img d-flex justify-content-center align-items-center"
+                        >
+                          <img
+                            class="w-100"
+                            src="image/gallery2-1-360x260.png"
+                            alt=""
+                          />
+                        </div>
+                        <div class="image-content">
+                          <h6 class="f-smoll footer-text-color-hover">
+                            Four ways to cheer and plan your self up on Blue
+                          </h6>
+                          <div
+                            class="d-flex justify-content-start align-items-center gap-2 f-smoll text-truncate footer-text-color"
+                          >
+                            <i class="fa-solid fa-calendar-days"></i>
+                            <p class="mb-0">December 19, 2018</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="d-flex flex-column justify-content-end align-items-center"
+                    >
+                      <div
+                        class="d-flex justify-content-center align-items-center gap-3"
+                      >
+                        <div
+                          class="footer-img d-flex justify-content-center align-items-center"
+                        >
+                          <img class="w-100" src="image/bg3-360x260.jpg" alt="" />
+                        </div>
+                        <div class="image-content">
+                          <h6 class="f-smoll footer-text-color-hover">
+                            Four ways to cheer and plan your self up on Blue
+                          </h6>
+                          <div
+                            class="d-flex justify-content-start align-items-center gap-2 f-smoll footer-text-color"
+                          >
+                            <i class="fa-solid fa-calendar-days"></i>
+                            <p class="mb-0">December 19, 2018</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mt-2 gx-4">
+                  <div
+                    class="d-flex flex-column justify-content-center align-items-lg-start gap-4 align-items-center"
+                  >
+                    <div class="">
+                      <h2 class="footer-head position-relative pb-4 mb-3">Popular</h2>
+                    </div>
+                    <div class="">
+                      <ul class="list-unstyled d-flex gap-lg-2 gap-1">
+                        <li>
+                          <button
+                            class="btn rounded-pill bg-white text-black f-smoll footer-btn-hover"
+                          >
+                            Accountancy
+                          </button>
+                        </li>
+                        <li>
+                          <button
+                            class="btn rounded-pill bg-white text-black f-smoll footer-btn-hover"
+                          >
+                            Affiliate
+                          </button>
+                        </li>
+                        <li>
+                          <button
+                            class="btn rounded-pill bg-white text-black f-smoll footer-btn-hover"
+                          >
+                            Branding
+                          </button>
+                        </li>
+                      </ul>
+                      <ul class="list-unstyled d-flex gap-lg-2 gap-1">
+                        <li>
+                          <button
+                            class="btn rounded-pill bg-white text-black f-smoll footer-btn-hover"
+                          >
+                            Construction
+                          </button>
+                        </li>
+                        <li>
+                          <button
+                            class="btn rounded-pill bg-white text-black f-smoll footer-btn-hover"
+                          >
+                            Design
+                          </button>
+                        </li>
+                        <li>
+                          <button
+                            class="btn rounded-pill bg-white text-black f-smoll footer-btn-hover"
+                          >
+                            Drupal
+                          </button>
+                        </li>
+                        <li>
+                          <button
+                            class="btn rounded-pill bg-white text-black f-smoll footer-btn-hover"
+                          >
+                            Education
+                          </button>
+                        </li>
+                      </ul>
+                      <ul class="list-unstyled d-flex gap-lg-2 gap-1">
+                        <li>
+                          <button
+                            class="btn rounded-pill bg-white text-black f-smoll footer-btn-hover"
+                          >
+                            Graphics
+                          </button>
+                        </li>
+                        <li>
+                          <button
+                            class="btn rounded-pill bg-white text-black f-smoll footer-btn-hover"
+                          >
+                            Joomla
+                          </button>
+                        </li>
+                        <li>
+                          <button
+                            class="btn rounded-pill bg-white text-black f-smoll footer-btn-hover"
+                          >
+                            Marketing
+                          </button>
+                        </li>
+                        <li>
+                          <button
+                            class="btn rounded-pill bg-white text-black f-smoll footer-btn-hover"
+                          >
+                            Money
+                          </button>
+                        </li>
+                      </ul>
+                      <ul class="list-unstyled d-flex gap-lg-2 gap-1">
+                        <li>
+                          <button
+                            class="btn rounded-pill bg-white text-black f-smoll footer-btn-hover"
+                          >
+                            Tally
+                          </button>
+                        </li>
+                        <li>
+                          <button
+                            class="btn rounded-pill bg-white text-black f-smoll footer-btn-hover"
+                          >
+                            Transform
+                          </button>
+                        </li>
+                        <li>
+                          <button
+                            class="btn rounded-pill bg-white text-black f-smoll footer-btn-hover"
+                          >
+                            Website
+                          </button>
+                        </li>
+                        <li>
+                          <button
+                            class="btn rounded-pill bg-white text-black f-smoll footer-btn-hover"
+                          >
+                            Wordpress
+                          </button>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+            </div>
+            <div
+              class="bg-black shadow-lg d-flex justify-content-center align-items-center mt-4 py-4"
+            >
+              <p class="text-primary f-smoll fw-semibold mb-0">
+                &COPY;2019 Developed By DTM Theme
+              </p>
+            </div>
+      
+          </footer>
         <script src="js/jquary.js"></script>
         <script src="owlcarousel/owl.carousel.min.js"></script>
         <script src="js/bootstrap.bundle.min.js"></script>
@@ -1066,178 +1508,3 @@
 </html>
 
 
-<!-- <section class="pricing-section">
-    <div class="sup-head">
-      <h2><span></span> Our Pricing<span></span></h2>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita
-        reiciendis aut ex iusto ab, explicabo quis dolorum in ipsa?
-      </p>
-    </div>
-    <div class="container">
-      <div
-        class="pricing-btn d-flex justify-content-md-center justify-content-evenly align-items-center align-items-stretch w-50 mx-auto"
-      >
-        <button
-          class="btn btn-primary rounded-start-pill fw-bold w-25 pricing-btn p-3"
-        >
-          Pro / Month
-        </button>
-        <button
-          class="btn border-1 text-primary fw-bold border-primary w-25 rounded-end-pill p-3 pricing-btn"
-        >
-          Pro / Year
-        </button>
-      </div>
-      <div class="pricing-iteams">
-        <div
-          class="row row-cols-lg-3 row-cols-md-2 row-cols-1 my-5 justify-content-center align-items-center gy-sm-2"
-        >
-          <div class="">
-            <div
-              class="border rounded-1 border-1 p-3 px-4 text-center border-color"
-            >
-              <h4 class="fs-1 py-3 mb-3 position-relative">Personal</h4>
-              <ul class="list-unstyled d-flex flex-column gap-3">
-                <li class="border-1 border-color border-bottom">
-                  <p class="fs-5 fw-semibold text-capitalize">
-                    from <span class="text-primary fw-semibold">$399</span>
-                  </p>
-                </li>
-                <li class="border-1 border-color border-bottom">
-                  <h4 class="fs-6 position-relative mx-auto ps-2">
-                    03 PSD Pack
-                  </h4>
-                  <p class="f-smoll">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Odio, ratione.
-                  </p>
-                </li>
-                <li class="border-1 border-color border-bottom">
-                  <h4 class="fs-6 position-relative mx-auto ps-2">
-                    03 PSD Pack
-                  </h4>
-                  <p class="f-smoll">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Odio, ratione.
-                  </p>
-                </li>
-                <li class="border-1 border-color border-bottom">
-                  <h4 class="fs-6 position-relative mx-auto ps-2">
-                    03 PSD Pack
-                  </h4>
-                  <p class="f-smoll">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Odio, ratione.
-                  </p>
-                </li>
-                <li>
-                  <button
-                    class="btn btn-primary rounded-pill text-white fw-bold p-3 px-5 btn-hover"
-                  >
-                    Get started now
-                  </button>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div class="">
-            <div
-              class="border rounded-1 border-1 p-3 px-4 text-center border-color shadow-lg"
-            >
-              <h4 class="fs-1 py-3 mb-3 position-relative">Business</h4>
-              <ul class="list-unstyled d-flex flex-column gap-3">
-                <li class="border-1 border-color border-bottom">
-                  <p class="fs-5 fw-semibold text-capitalize">
-                    from <span class="text-primary fw-semibold">$899</span>
-                  </p>
-                </li>
-                <li class="border-1 border-color border-bottom">
-                  <h4 class="fs-6 position-relative mx-auto ps-2">
-                    03 PSD Pack
-                  </h4>
-                  <p class="f-smoll">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Odio, ratione.
-                  </p>
-                </li>
-                <li class="border-1 border-color border-bottom">
-                  <h4 class="fs-6 position-relative mx-auto ps-2">
-                    03 PSD Pack
-                  </h4>
-                  <p class="f-smoll">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Odio, ratione.
-                  </p>
-                </li>
-                <li class="border-1 border-color border-bottom">
-                  <h4 class="fs-6 position-relative mx-auto ps-2">
-                    03 PSD Pack
-                  </h4>
-                  <p class="f-smoll">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Odio, ratione.
-                  </p>
-                </li>
-                <li>
-                  <button
-                    class="btn text-black border border-1 border-primary rounded-pill text-white fw-bold p-3 px-5 btn-hover button.btn-hover-2"
-                  >
-                    Get started now
-                  </button>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div class="">
-            <div
-              class="border rounded-1 border-1 p-3 px-4 text-center border-color"
-            >
-              <h4 class="fs-1 py-3 mb-3 position-relative">Ultimate</h4>
-              <ul class="list-unstyled d-flex flex-column gap-3">
-                <li class="border-1 border-color border-bottom">
-                  <p class="fs-5 fw-semibold text-capitalize">
-                    from <span class="text-primary fw-semibold">$499</span>
-                  </p>
-                </li>
-                <li class="border-1 border-color border-bottom">
-                  <h4 class="fs-6 position-relative mx-auto ps-2">
-                    03 PSD Pack
-                  </h4>
-                  <p class="f-smoll">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Odio, ratione.
-                  </p>
-                </li>
-                <li class="border-1 border-color border-bottom">
-                  <h4 class="fs-6 position-relative mx-auto ps-2">
-                    03 PSD Pack
-                  </h4>
-                  <p class="f-smoll">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Odio, ratione.
-                  </p>
-                </li>
-                <li class="border-1 border-color border-bottom">
-                  <h4 class="fs-6 position-relative mx-auto ps-2">
-                    03 PSD Pack
-                  </h4>
-                  <p class="f-smoll">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Odio, ratione.
-                  </p>
-                </li>
-                <li>
-                  <button
-                    class="btn btn-primary rounded-pill text-white fw-bold p-3 px-5 btn-hover"
-                  >
-                    Get started now
-                  </button>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>     -->
